@@ -1,0 +1,45 @@
+.header {
+    padding: 22px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.burger-btn {
+    display: none;
+    background: transparent;
+}
+
+.logo__link {
+    display: inline-block;
+}
+
+.nav{
+    margin-left: auto;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+}
+
+.nav__item+.nav__item {
+    margin-left: 50px;
+}
+
+.nav__link {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+
+    &:hover{
+
+        border-bottom: 1px solid  #D8B152;;
+    }
+}
