@@ -47,3 +47,36 @@
         border-bottom: 1px solid  #D8B152;;
     }
 }
+
+@media only screen  and(max-width:768px){
+
+        .logo, .logo-dark{
+            width: 150px;
+            height: 100px;
+        }
+
+        .nav__list{
+            margin-left: 35px;
+        }
+
+        .nav__item + .nav__item{
+            margin-left: 28px;
+        }
+
+        .nav__link{
+            font-size: 15px;
+        }
+}
+
+
+@media only screen and (max-width:576px) {
+    .burger-btn{
+        display: block;
+        margin-left: auto;
+        border: none;
+    }
+
+    .nav{
+        display: none;
+    }
+}   

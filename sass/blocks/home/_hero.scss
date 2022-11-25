@@ -1,0 +1,181 @@
+.header,
+.logo {
+    display: none
+}
+
+.header-dark,
+.logo-dark {
+    display: block;
+}
+
+.header-dark {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav__link {
+    color: #FFF;
+
+    &:hover {
+        color: #FFF;
+    }
+}
+
+.hero{
+    margin: 0 0 120px;
+}
+
+.hero__items{
+    position: relative;
+}
+
+
+.hero__content {
+    position: absolute;
+    top: 160px;
+    right: 150px;
+    left: 160px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content__left {
+    display: inline-block;
+    width: 100%;
+    max-width: 860px;
+    text-align: start;
+}
+
+.hero__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.content__right {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+}
+
+.hero__text {
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero__link {
+    padding: 18px 0;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D8B152;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    
+    &:hover{
+        color: #FFFFFF;
+        background: transparent;
+        border: 2px solid #D8B152;
+        transition: all 0.2s ease;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+
+    .hero__content{
+        right: 0;
+        left: 0;
+    }
+
+    .hero__title{
+        font-size: 40px;
+    }
+
+    .hero__text{
+        font-size: 14px;
+    }
+
+    .hero__link{
+        padding: 14px 0;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .content__left {
+        width: 100%;
+        max-width: 860px;
+    }
+    
+
+    .hero__title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .content__right {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .hero__text{
+        margin-bottom: 12px;
+    }
+    
+
+    .hero__link{
+        padding: 12px 0;
+    }
+}   
+
+
+@media only screen and (max-width:576px) {
+    .header{
+        padding: 0;
+    }
+
+    .logo, .logo-dark{
+        width: 85px;
+        height: 85px;
+    }
+
+    .hero__content{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 576px;
+    }
+
+    .content__left{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .hero__title{
+        margin: 0 0 27px;
+        font-size: 23px;
+    }
+
+    .content__right{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .hero__text{
+        text-align: start;
+    }
+
+}
