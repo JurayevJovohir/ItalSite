@@ -334,11 +334,15 @@ html {
 }
 
 body {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+}
+
+.body {
+  padding-top: 144px;
 }
 
 main {
@@ -423,14 +427,20 @@ a {
 }
 
 .nav__link {
+  padding-bottom: 5px;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   color: #424242;
+  transition: all 0.3s ease;
 }
 .nav__link:hover {
   border-bottom: 1px solid #D8B152;
+}
+
+.nav__link--portfolio {
+  color: #424242 !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -470,8 +480,9 @@ a {
 
 .header-dark {
   position: absolute;
-  width: 100%;
+  top: 0;
   z-index: 1;
+  width: 100%;
 }
 
 .nav__link {

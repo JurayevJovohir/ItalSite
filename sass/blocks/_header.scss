@@ -35,17 +35,22 @@
 }
 
 .nav__link {
+    padding-bottom: 5px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #424242;
+    transition: all .3s ease;
 
 
     &:hover{
-
-        border-bottom: 1px solid  #D8B152;;
+        border-bottom: 1px solid  #D8B152;
     }
+}
+
+.nav__link--portfolio{
+    color: #424242 !important;
 }
 
 @media only screen  and(max-width:768px){
