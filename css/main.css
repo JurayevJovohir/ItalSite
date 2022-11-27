@@ -1112,6 +1112,9 @@ a {
   .body {
     padding-top: 90px;
   }
+  .portfolio-hero {
+    padding-bottom: 80px;
+  }
   .portfolio-hero__inner {
     background-image: url("../images/portfolio-hero-img-mobile.jpg");
     background-position: center top 120px;
@@ -1237,5 +1240,115 @@ a {
   .portfolio-hero__title {
     font-size: 20px;
     line-height: 30px;
+  }
+}
+.hall {
+  padding: 0 0 870px;
+  background-image: url("../images/hall-img3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center bottom 120px;
+}
+
+.hall__inner {
+  position: relative;
+}
+
+.hall__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 51px;
+}
+
+.hall__info__content {
+  width: 100%;
+  max-width: 860px;
+}
+
+.hall__title {
+  margin: 0 0 50px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.hall__main__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hall__info__content__text__box {
+  width: 100%;
+  max-width: 560px;
+}
+
+.hall__info__content__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.hall__picture {
+  position: absolute;
+  right: 0;
+}
+
+.hall__addition {
+  width: 100%;
+  max-width: 1162px;
+}
+
+.hall__addition__desc {
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424242;
+}
+
+@media only screen and (max-width: 576px) {
+  .hall {
+    padding: 0 0 370px;
+    background-image: url("../images/hall-img3-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom 80px;
+  }
+  .hall__title {
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+  .hall__main__info {
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .hall__info__content__text__box {
+    margin-bottom: 30px;
+  }
+  .hall__main__images {
+    width: 140px;
+    height: 180px;
+  }
+  .hall__info__content__text, .hall__addition__desc {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .hall__main__info {
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hall__picture {
+    bottom: 37%;
+    right: 25%;
   }
 }/*# sourceMappingURL=main.css.map */
