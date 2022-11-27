@@ -79,21 +79,22 @@
                 <span class="cicles__inner"></span>
               </span>
               <span class="bg-white"></span>
+              <!-- Mobile circles -->
               <div class="mobile-circles__box">
-                <span class="mobile-circles__one main-mobile-circles">
+                <span class="main-mobile-circles">
                   <span class="mobile-circles__inner"></span>
                 </span>
-                <span class="mobile-circles__two main-mobile-circles"> 
-                  <!-- <span class="mobile-circles__inner"></span> -->
+                <span class="main-mobile-circles">
+                  <span class="mobile-circles__inner"></span>
                 </span>
-                <span class="mobile-circles__three main-mobile-circles"> 
-                  <!-- <span class="mobile-circles__inner"></span> -->
+                <span class="main-mobile-circles">
+                  <span class="mobile-circles__inner"></span>
                 </span>
-                <span class="mobile-circles__four main-mobile-circles">
-                  <!-- <span class="mobile-circles__inner"></span> -->
+                <span class="main-mobile-circles">
+                  <span class="mobile-circles__inner"></span>
                 </span>
-                <span class="mobile-circles__five main-mobile-circles">
-                  <!-- <span class="mobile-circles__inner"></span> -->
+                <span class="main-mobile-circles">
+                  <span class="mobile-circles__inner"></span>
                 </span>
               </div>
               <ul class="portfolio-hero__list">
@@ -150,18 +151,48 @@
               </div>
             </div>
             <div class="portfolio-hero__example example">
-              <img
-                src="./images/example-img1.jpg"
-                alt="Example in Project"
-                width="260"
-                height="380"
-              />
-              <img
-                src="./images/example-img2.jpg"
-                alt="Example in Project"
-                width="260"
-                height="380"
-              />
+              <div class="example__img__box">
+                <picture class="example__picture">
+                  <source
+                    media="(max-width: 576px)"
+                    srcset="
+                      ./images/example-img1-mobile.png    1x,
+                      ./images/example-img1-mobile@2x.png 2x
+                    "
+                  />
+                  <img
+                    class="example__img"
+                    src="./images/example-img1.jpg"
+                    srcset="
+                      ./images/example-img1.jpg    1x,
+                      ./images/example-img1@2x.jpg 2x
+                    "
+                    alt="Example in Project"
+                    width="260"
+                    height="380"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    media="(max-width: 576px)"
+                    srcset="
+                      ./images/example-img2-mobile.png    1x,
+                      ./images/example-img2-mobile@2x.png 2x
+                    "
+                  />
+                  <img
+                    class="example__img2"
+                    src="./images/example-img2.jpg"
+                    srcset="
+                      ./images/example-img2.jpg    1x,
+                      ./images/example-img2@2x.jpg 2x
+                    "
+                    alt="Example in Project"
+                    width="260"
+                    height="380"
+                  />
+                </picture>
+              </div>
               <ul class="example__list">
                 <li class="example__item">
                   <p class="example__text">
