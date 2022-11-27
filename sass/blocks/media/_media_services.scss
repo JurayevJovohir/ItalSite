@@ -1,0 +1,16 @@
+.media-card {
+    display: block;
+    width: 360px;
+    height: 360px;
+    background-image: url("../../../images/services4.png");
+    background-repeat: no-repeat;
+    text-align: center;
+
+    &:nth-child(2) {
+        background-image: url("../../../images/services5.png");
+    }
+
+    &:last-child {
+        background-image: url("../../../images/services6.png");
+    }
+}
