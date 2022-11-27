@@ -1,15 +1,15 @@
-.plain-text {
-  padding: 137px 0;
+.convenience {
+  padding: 134px 0;
   background-color: #aea38b;
 }
 
-.plain-text__inner {
+.convenience__inner {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
 
-.plain-text__title {
+.convenience__title {
   margin: 0;
   font-style: italic;
   font-weight: 600;
@@ -20,12 +20,12 @@
 }
 
 @include media(576px) {
-  .plain-text {
-    padding: 94px 0;
+  .convenience {
+    padding: 95px 0;
   }
 
-  .plain-text__title {
-    font-size: 18px;
+  .convenience__title {
+    font-size: 20px;
     line-height: 150%;
     text-align: left;
   }
