@@ -1389,6 +1389,7 @@ a {
 .lines {
   position: absolute;
   width: 100%;
+  max-width: 1170px;
   height: 1px;
   background-color: #503d2b;
 }
