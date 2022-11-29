@@ -870,6 +870,130 @@ a {
     justify-content: center;
   }
 }
+.dream-houses {
+  padding: 10px 0 140px;
+}
+
+.dream-houses__buttons {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.dream-houses__links {
+  padding: 18px 55px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #424242;
+  border: 2px solid #aea38b;
+}
+
+.dream-houses__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.dream-houses__main-contents {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.dream-houses__descs-box {
+  width: 100%;
+  max-width: 460px;
+}
+
+.dream-houses__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #424242;
+}
+
+.dream-houses__desc + .dream-houses__desc {
+  margin-top: 22px;
+}
+
+.dream-houses__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.dream-houses__subtitle {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #424242;
+}
+
+.dream-houses__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #424242;
+}
+
+@media only screen and (max-width: 576px) {
+  .dream-houses {
+    padding: 40px 0 100px;
+  }
+  .dream-houses__title {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .dream-houses__main-contents {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .dream-houses__descs-box {
+    width: 100%;
+    max-width: 320px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .dream-houses__desc {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .dream-houses__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dream-houses__item + .dream-houses__item {
+    margin-top: 30px;
+  }
+  .dream-houses__subtitle {
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .dream-houses__text {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .dream-houses__buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dream-houses__links:nth-child(2) {
+    margin-top: 15px;
+    padding: 18px 49px;
+  }
+}
 .portfolio-hero {
   padding-bottom: 140px;
 }

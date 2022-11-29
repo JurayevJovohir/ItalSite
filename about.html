@@ -1,191 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>О нас</title>
-    <link rel="shortcut icon" href="./images/about-us.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body class="body">
-    <header class="header header-dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>О нас</title>
+  <link
+  rel="shortcut icon"
+  href="./images/about-us.svg"
+  type="image/x-icon"
+  />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body class="body">
+  <header class="header header-dark">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo__link" href="./index.html">
+          <img
+          class="logo-dark"
+          src="./images/sitelogo_dark.svg"
+          alt="Site Logo"
+          width="200"
+          height="100"
+          />
+        </a>
+        
+        <button class="burger-btn">
+          <img
+          class="burger-btn__logo"
+          src="./images/menu.svg"
+          alt="Burger Btn"
+          />
+        </button>
+        
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link nav__link--portfolio" href="./index.html"
+              >Наши проекты</a
+              >
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link nav__link--portfolio" href="./index.html"
+              >Медиа</a
+              >
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link nav__link--portfolio" href="#">О нас</a>
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link nav__link--portfolio" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="dream-houses">
       <div class="container">
-        <div class="header__inner">
-          <a class="logo__link" href="./index.html">
-            <img
-              class="logo-dark"
-              src="./images/sitelogo_dark.svg"
+        <div class="dream-houses__inner">
+          <div class="dream-houses__buttons">
+            <a class="dream-houses__links" href="#">О нас</a>
+            <a class="dream-houses__links" href="#">Услуги</a>
+          </div>
+          <h2 class="dream-houses__title">Строим дома мечты</h2>
+          <div class="dream-houses__main-contents">
+            <picture>
+              <source
+              media="(max-width: 576px)"
+              srcset="./images/dream-houses-img1-mobile.jpg 1x"
+              />
+              <img src="./images/dream-houses-img1.jpg" alt="Dream-house" />
+            </picture>
+            <div class="dream-houses__descs-box">
+              <p class="dream-houses__desc">
+                ItalProject основали Петр и Анна Насоновы. Это семейный
+                бизнес. Название бюро родилось не случайно. Любовь к Италии,
+                ее традициям и культуре, искусству и мастерству лежит в основе
+                наших проектов
+              </p>
+              <p class="dream-houses__desc">
+                В настоящий момент архитектурное бюро ItalProject занимается
+                проектированием для частных заказчиков в сегменте элитной
+                недвижимости
+              </p>
+              <p class="dream-houses__desc">
+                Вы можете увидеть наши реализованные проекты в КП на Новой
+                Риге: в поселках Монтевиль, Мэдисон-Парк, Монолит, Абрамцево,
+                Гавриково
+              </p>
+              <p class="dream-houses__desc">
+                Мы ведем наши проекты от эскиза до реализации. Мы умеем
+                услышать пожелания наших заказчиков и воплотить их в жизнь
+              </p>
+            </div>
+            <picture>
+              <source
+              media="(max-width: 576px)"
+              srcset="./images/dream-houses-img2-mobile.jpg 1x"
+              />
+              <img src="./images/dream-houses-img2.jpg" alt="Dream-house" />
+            </picture>
+          </div>
+          <ul class="dream-houses__list">
+            <li class="dream-houses__item">
+              <h3 class="dream-houses__subtitle">1996 г.</h3>
+              <p class="dream-houses__text">
+                было образовано архитектурное бюро
+              </p>
+            </li>
+            <li class="dream-houses__item">
+              <h3 class="dream-houses__subtitle">20 000 м²</h3>
+              <p class="dream-houses__text">площадь реализованных проектов</p>
+            </li>
+            <li class="dream-houses__item">
+              <h3 class="dream-houses__subtitle">5</h3>
+              <p class="dream-houses__text">постоянных экспертов в команде</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="convenience">
+      <div class="container">
+        <div class="convenience__inner">
+          <h2 class="convenience__title">
+            Индустрия частного загородного строительства не стоит на месте.
+            Она постоянно развивается. Поэтому мы своевременно изучаем новые
+            технологии и материалы и применяем их в жизнь. Мы готовы
+            предложить вам полный комплекс услуг, связанных с воплощением
+            проекта в жизнь и выступить в качестве их представителей во время
+            строительства, отделки и оснащения
+          </h2>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="inner__top">
+          <div class="inner__top__logo">
+            <a href="" class="footer__logo__link">
+              <img
+              class="footer__logo"
+              src="./images/sitelogo.svg"
               alt="Site Logo"
-              width="200"
-              height="100"
-            />
-          </a>
-
-          <button class="burger-btn">
-            <img
-              class="burger-btn__logo"
-              src="./images/menu.svg"
-              alt="Burger Btn"
-            />
-          </button>
-
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link nav__link--portfolio" href="./index.html"
-                  >Наши проекты</a
-                >
+              />
+            </a>
+          </div>
+          <div class="inner__top__list">
+            <strong class="top__list__title">Информация</strong>
+            <ul class="top__list">
+              <li class="top__item">
+                <a href="#" class="top__link">Загородные дома</a>
               </li>
-
-              <li class="nav__item">
-                <a class="nav__link nav__link--portfolio" href="./index.html"
-                  >Медиа</a
-                >
+              
+              <li class="top__item">
+                <a href="#" class="top__link">Квартиры</a>
               </li>
-
-              <li class="nav__item">
-                <a class="nav__link nav__link--portfolio" href="#">О нас</a>
+              
+              <li class="top__item">
+                <a href="#" class="top__link">Нежилые помещения</a>
               </li>
-
-              <li class="nav__item">
-                <a class="nav__link nav__link--portfolio" href="#">Контакты</a>
+              
+              <li class="top__item">
+                <a href="#" class="top__link">Медиафайлы</a>
+              </li>
+              
+              <li class="top__item">
+                <a href="#" class="top__link">О компании</a>
               </li>
             </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="convenience">
-        <div class="container">
-          <div class="convenience__inner">
-            <h2 class="convenience__title">
-              Индустрия частного загородного строительства не стоит на месте.
-              Она постоянно развивается. Поэтому мы своевременно изучаем новые
-              технологии и материалы и применяем их в жизнь. Мы готовы
-              предложить вам полный комплекс услуг, связанных с воплощением
-              проекта в жизнь и выступить в качестве их представителей во время
-              строительства, отделки и оснащения
-            </h2>
           </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__inner">
-          <div class="inner__top">
-            <div class="inner__top__logo">
-              <a href="" class="footer__logo__link">
-                <img
-                  class="footer__logo"
-                  src="./images/sitelogo.svg"
-                  alt="Site Logo"
-                />
-              </a>
-            </div>
-            <div class="inner__top__list">
-              <strong class="top__list__title">Информация</strong>
-              <ul class="top__list">
-                <li class="top__item">
-                  <a href="#" class="top__link">Загородные дома</a>
-                </li>
-
-                <li class="top__item">
-                  <a href="#" class="top__link">Квартиры</a>
-                </li>
-
-                <li class="top__item">
-                  <a href="#" class="top__link">Нежилые помещения</a>
-                </li>
-
-                <li class="top__item">
-                  <a href="#" class="top__link">Медиафайлы</a>
-                </li>
-
-                <li class="top__item">
-                  <a href="#" class="top__link">О компании</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="inner__top__contacts">
-              <strong class="top__contacts__title">О компании</strong>
-
-              <a class="top__contacts__link tel" href="tel: 74994091612"
-                >+ 7 (499) 409-16-12</a
-              >
-              <a class="top__contacts__link" href="mailto:italproekt@gmail.com"
-                >italproekt@gmail.com</a
-              >
-            </div>
-
-            <div class="inner__top__websites">
-              <strong class="top__websites__title">Соц. сети</strong>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                class="top__websites__link facebook"
-              >
-                <img
-                  class="top__websites__logo"
-                  src="./images/facebook.svg"
-                  alt="facebook"
-                />
-              </a>
-
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                class="top__websites__link"
-              >
-                <img
-                  class="top__websites__logo"
-                  src="./images/youtube.svg"
-                  alt="youtube"
-                />
-              </a>
-
-              <a href="#" target="_blank" class="top__websites__link">
-                <img
-                  class="top__websites__logo"
-                  src="./images/pinteres.svg"
-                  alt="pinteres"
-                />
-              </a>
-
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                class="top__websites__link"
-              >
-                <img
-                  class="top__websites__logo"
-                  src="./images/instagram.svg"
-                  alt="instagram"
-                />
-              </a>
-            </div>
-
-            <div class="inner__top__information">
-              <p class="top__information__text">Информация</p>
-            </div>
+          
+          <div class="inner__top__contacts">
+            <strong class="top__contacts__title">О компании</strong>
+            
+            <a class="top__contacts__link tel" href="tel: 74994091612"
+            >+ 7 (499) 409-16-12</a
+            >
+            <a class="top__contacts__link" href="mailto:italproekt@gmail.com"
+            >italproekt@gmail.com</a
+            >
           </div>
-
-          <div class="inner__bottom">
-            <div class="bottom-left">
-              <a href="#" class="bottom-left__link"
-                >Политика конфиденциальности</a
-              >
-            </div>
-
-            <div class="bottom-right">
-              <p class="bottom-right__text">designed by Linar</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+          
+          <div class="inner__top__websites">
+            <strong class="top__websites__title">Соц. сети</strong>
+            <a
+            href="https://facebook.com"
+            target="_blank"
+            class="top__websites__link facebook"
+            >
+            <img
+            class="top__websites__logo"
+            src="./images/facebook.svg"
+            alt="facebook"
+            />
+          </a>
+          
+          <a
+          href="https://youtube.com"
+          target="_blank"
+          class="top__websites__link"
+          >
+          <img
+          class="top__websites__logo"
+          src="./images/youtube.svg"
+          alt="youtube"
+          />
+        </a>
+        
+        <a href="#" target="_blank" class="top__websites__link">
+          <img
+          class="top__websites__logo"
+          src="./images/pinteres.svg"
+          alt="pinteres"
+          />
+        </a>
+        
+        <a
+        href="https://instagram.com"
+        target="_blank"
+        class="top__websites__link"
+        >
+        <img
+        class="top__websites__logo"
+        src="./images/instagram.svg"
+        alt="instagram"
+        />
+      </a>
+    </div>
+    
+    <div class="inner__top__information">
+      <p class="top__information__text">Информация</p>
+    </div>
+  </div>
+  
+  <div class="inner__bottom">
+    <div class="bottom-left">
+      <a href="#" class="bottom-left__link"
+      >Политика конфиденциальности</a
+      >
+    </div>
+    
+    <div class="bottom-right">
+      <p class="bottom-right__text">designed by Linar</p>
+    </div>
+  </div>
+</div>
+</div>
+</footer>
+</body>
 </html>
