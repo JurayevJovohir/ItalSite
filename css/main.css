@@ -870,6 +870,130 @@ a {
     justify-content: center;
   }
 }
+.dream-houses {
+  padding: 10px 0 140px;
+}
+
+.dream-houses__buttons {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.dream-houses__links {
+  padding: 18px 55px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #424242;
+  border: 2px solid #aea38b;
+}
+
+.dream-houses__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.dream-houses__main-contents {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.dream-houses__descs-box {
+  width: 100%;
+  max-width: 460px;
+}
+
+.dream-houses__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #424242;
+}
+
+.dream-houses__desc + .dream-houses__desc {
+  margin-top: 22px;
+}
+
+.dream-houses__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.dream-houses__subtitle {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #424242;
+}
+
+.dream-houses__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #424242;
+}
+
+@media only screen and (max-width: 576px) {
+  .dream-houses {
+    padding: 40px 0 100px;
+  }
+  .dream-houses__title {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .dream-houses__main-contents {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .dream-houses__descs-box {
+    width: 100%;
+    max-width: 320px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .dream-houses__desc {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .dream-houses__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dream-houses__item + .dream-houses__item {
+    margin-top: 30px;
+  }
+  .dream-houses__subtitle {
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .dream-houses__text {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .dream-houses__buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dream-houses__links:nth-child(2) {
+    margin-top: 15px;
+    padding: 18px 49px;
+  }
+}
 .portfolio-hero {
   padding-bottom: 140px;
 }
@@ -1540,6 +1664,14 @@ a {
   margin-right: auto;
 }
 
+.kitchen__title {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: #424242;
+}
+
 .kitchen__desc {
   font-weight: 400;
   font-size: 18px;
@@ -1551,6 +1683,57 @@ a {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 576px) {
+  .kitchen__inner {
+    background-image: url("../images/kitchen-img1-mobile.png"), url("../images/kitchen-img2-mobile.png");
+    background-size: 100% auto;
+    background-position: center top 340px, center bottom 40px;
+  }
+  .kitchen__content__one {
+    padding-bottom: 400px;
+  }
+  .kitchen__content__two {
+    margin-top: 0;
+    padding-bottom: 400px;
+  }
+  .kitchen__desc {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .kitchen__inner {
+    background-position: center top 400px, center bottom 40px;
+  }
+  .kitchen__content__one {
+    padding-bottom: 330px;
+  }
+  .kitchen__content__two {
+    padding-bottom: 350px;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .kitchen__inner {
+    background-position: center top 430px, center bottom 40px;
+  }
+  .kitchen__content__one {
+    padding-bottom: 300px;
+  }
+  .kitchen__content__two {
+    padding-bottom: 300px;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .kitchen__inner {
+    background-position: center top 520px, center bottom 0;
+  }
+  .kitchen__content__one {
+    padding-bottom: 300px;
+  }
+  .kitchen__content__two {
+    padding-bottom: 240px;
+  }
+}
 .convenience {
   padding: 134px 0;
   background-color: #aea38b;
@@ -1597,6 +1780,7 @@ a {
   background-image: url("../../../images/services6.png");
 }
 
+<<<<<<< HEAD
 .feedback {
   margin: 85px 0 140px;
 }
@@ -1692,6 +1876,83 @@ a {
   }
   .feedback__btn-right {
     margin: 0 0 0 0px;
+=======
+.our-services {
+  padding: 65px 0;
+}
+
+.our-services__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-services__item {
+  width: 100%;
+  max-width: 360px;
+  margin-bottom: 50px;
+  padding: 240px 5px 0;
+  background-image: url("../images/random.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.our-services__item:nth-child(5) {
+  margin-right: auto;
+  margin-left: 60px;
+}
+
+.our-services__desc {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #424242;
+}
+
+.our-services__salary {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  text-align: center;
+  color: #424242;
+  text-decoration: none;
+}
+
+.our-services__btn {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto;
+  padding: 18px 54px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #d8b152;
+}
+
+@media only screen and (max-width: 576px) {
+  .our-services {
+    padding: 50px 0;
+  }
+  .our-services__list {
+    align-items: center;
+    flex-direction: column;
+  }
+  .our-services__item:nth-child(5) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .our-services__item:not(:last-child) {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #aea38b;
+>>>>>>> e6506b2b4ae74d4054978ea5eee6ca80c1fbb20d
   }
 }
 .footer {
